@@ -1,1 +1,89 @@
 
+.titulo_header{
+    background-color:#C004D9;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.prueba{
+    display:flex;
+    
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #C004D9;
+    float: left;
+    width: 380px;
+    background-color:#fdfcfd
+   
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #C004D9;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  
+/*Formulario */
+
+.formproducto_input{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #C004D9;
+    border-radius: 14px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.formproducto__enviar{
+    background-color: white;
+    border-color: #C004D9;
+    color:#C004D9;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formproducto__limpiar{
+    background-color: #C004D9;
+    border-color: #C004D9;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*footer*/
+
+.footer{
+    background-color:#C004D9;
+    display: flex;
+    justify-content: center;
+}
+.footer__rodape{
+    justify-content: center;
+}
+
